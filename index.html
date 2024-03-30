@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+    <section class="content">
+        <h1>Generador de Contraseñas</h1>
+        <p>Una contraseña segura se caracteriza por tener más de 12 carácteres que incluyen numeros, letras y carácteres especiales.</p>
+    </section>
+    <section class="container-generator">
+        <div class="container-generator__output" id="display">
+            qw1Bhqjh/-58&4Im/s\
+        </div>
+        <div class="container-generator__btns">
+            <button id="generator">Generar</button>
+            <button id="copy">Copiar</button>
+        </div>
+        <div class="container-generator__length">
+            <input type="number" name="length" id="length" value="18" inputmode="numeric">
+            <p>LONGITUD</p>
+        </div>
+        <!-- SELECTORES PARA INDICAR TIPO DE CARACTÉRES DE LA CONTRASEÑA -->
+        <!-- <div class="container-generator__characteristics">
+            <div>
+                <input type="checkbox" name="characteres" id="characteres">
+                <p><s>Carácteres especiales</s></p>
+            </div>
+            <div>
+                <input type="checkbox" name="characteres" id="lowercase">
+                <p><s>Minúsculas</s></p>
+            </div>
+            <div>
+                <input type="checkbox" name="characteres" id="uppercase">
+                <p><s>Mayúsculas</s></p>
+            </div>
+        </div> -->
+    </section>
+    
+    <script src="./src/scripts/script.js"></script>
+</body>
+</html>

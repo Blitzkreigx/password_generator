@@ -1,0 +1,72 @@
+html, 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    line-height: 25px;
+    font-size: 2em;
+}
+
+.content p {
+    font-size: 1em;
+}
+
+.container-generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.container-generator__output {
+    width: 90%;
+    max-width: 500px;
+    height: 40px;
+    background-color: #CAC4CE;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.container-generator__btns button {
+    height: 40px;
+    width: 80px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    background-color: #242038;
+    color: #fff;
+}
+
+.container-generator__length {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.container-generator__characteristics div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
